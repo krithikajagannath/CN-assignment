@@ -1,1 +1,1 @@
-JKHBJNJ
+We have created 3 webpages page1.html page2.html and page3.html. we have redirected page1.html to page2.html, page2.html to page3.html and page3.html back to page1.html. we have accessed this using our browsor and wget command for which we got  a redirection error. we observeed that the redirection happened for 20 iterations and stopped. we used the wget 202.62.79.36/~ks17cs036/page1.html as the command and did the same for others too.
