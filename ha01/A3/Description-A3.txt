@@ -1,1 +1,39 @@
+In this program we have taken the ip address as the input and found the network address and broadcast address.
+We have taken the help from Geek for geeks.
+ 
+ 
+ RESULT.Txt
+Program takes input from command line.
+Sir,we are able to compute network address and broadcast but we are not able to check if subnet of one contains the other.
 
+1)
+IP address  format is:10.10.20.10/16
+IP address  format is:10.10.20.40/24
+
+
+Class : A
+Network Address : 10.10.0.0
+broadcast Address : 10.10.255.255
+
+
+Class : A
+Network Address : 10.10.20.0
+broadcast Address : 10.10.20.255
+
+
+
+2)
+IP address  format is:192.168.31.21/21
+IP address  format is:192.168.1.1/21
+
+
+Class : C
+Network Address : 192.168.24.0
+broadcast Address : 192.168.31.255
+
+
+Class : C
+Network Address : 192.168.0.0
+broadcast Address : 192.168.7.255
+
+Find the code in the attachment.
