@@ -1,0 +1,3 @@
+In this we have accessed a web page and noted down the last modified using "wget -d www.rprustagi.com(url)" . Later we have reaccessed the same web page with header "if modified since" ,
+using wget -d "--header if-modified-since:Thu,22 Aug 2019 17:34:33 GMT" www.rprustagi.com. We get a status code 304 Not modified.
+After we reduce the time by one second we get a status code 200 OK. Please find the attached files for the above. 
