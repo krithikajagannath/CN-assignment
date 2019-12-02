@@ -13,7 +13,7 @@ RULE 2: sudo iptables -A OUTPUT -d 192.168.43.177 -p icmp --icmp-type 8 -j DROP
 ping -c 60 192.168.43.177
 
 HOW IT WORKS:
-As we have given the burst-limit to be 8 it will send packets upto the 10 the extra 2 are because of the average value and another start value.
+As we have given the burst-limit to be 8 it will send packets upto 10 the extra 2 are because of the average value and another start value.
 As we have given the limit to be 16, 16packets will be sent per minute.
 We have used --icmp-type 8 as 8 indicates request (icmp:Internet Control Message Protocol).
 The ACCEPT function accepts the connection on socket
