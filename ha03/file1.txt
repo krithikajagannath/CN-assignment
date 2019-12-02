@@ -1,0 +1,103 @@
+Script started on 2019-12-02 14:54:45+0530
+]0;kitty@kitty-Lenovo-YOGA-520-14IKB: ~[01;32mkitty@kitty-Lenovo-YOGA-520-14IKB[00m:[01;34m~[00m$ ping -c60 192.168.43.177sudo iptables -A OUTPUT -d 192.168.43.177 -p
+p icmp --icmp-type 8 -j DROP[A
+]0;kitty@kitty-Lenovo-YOGA-520-14IKB: ~[01;32mkitty@kitty-Lenovo-YOGA-520-14IKB[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[CI
+
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm limit --limit 16/minute --limit-burst 8 -j ACCEPT[AA
+
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cj DROP[K[A
+]0;kitty@kitty-Lenovo-YOGA-520-14IKB: ~[01;32mkitty@kitty-Lenovo-YOGA-520-14IKB[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[CI
+
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm limit --limit 16/minute --limit-burst 8 -j ACCEPT
+[sudo] password for kitty: 
+Sorry, try again.
+[sudo] password for kitty: 
+]0;kitty@kitty-Lenovo-YOGA-520-14IKB: ~[01;32mkitty@kitty-Lenovo-YOGA-520-14IKB[00m:[01;34m~[00m$ sudo iptables -I OUTPUT -d 192.168.43.177 -p
+p icmp --icmp-type 8 -m limit --limit 16/minute --limit-burst 8 -j ACCEPT[A[19Pping -c60 192.168.43.177
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo iptables -A OUTPUT -d 192.168.43.177 -p
+p icmp --icmp-type 8 -j DROP[A
+]0;kitty@kitty-Lenovo-YOGA-520-14IKB: ~[01;32mkitty@kitty-Lenovo-YOGA-520-14IKB[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[CI
+
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm limit --limit 16/minute --limit-burst 8 -j ACCEPT[AA
+
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cj DROP[K
+]0;kitty@kitty-Lenovo-YOGA-520-14IKB: ~[01;32mkitty@kitty-Lenovo-YOGA-520-14IKB[00m:[01;34m~[00m$ sudo iptables -A OUTPUT -d 192.168.43.177 -p
+p icmp --icmp-type 8 -j DROP[A
+]0;kitty@kitty-Lenovo-YOGA-520-14IKB: ~[01;32mkitty@kitty-Lenovo-YOGA-520-14IKB[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[CI
+
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm limit --limit 16/minute --limit-burst 8 -j ACCEPT[A[19Pping -c60 192.168.43.177
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo iptables -A OUTPUT -d 192.168.43.177 -p
+p icmp --icmp-type 8 -j DROP[A
+]0;kitty@kitty-Lenovo-YOGA-520-14IKB: ~[01;32mkitty@kitty-Lenovo-YOGA-520-14IKB[00m:[01;34m~[00m$ [19Pping -c60 192.168.43.177
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+PING 192.168.43.177 (192.168.43.177) 56(84) bytes of data.
+64 bytes from 192.168.43.177: icmp_seq=1 ttl=128 time=61.4 ms
+64 bytes from 192.168.43.177: icmp_seq=2 ttl=128 time=22.3 ms
+64 bytes from 192.168.43.177: icmp_seq=3 ttl=128 time=11.4 ms
+64 bytes from 192.168.43.177: icmp_seq=4 ttl=128 time=13.0 ms
+64 bytes from 192.168.43.177: icmp_seq=5 ttl=128 time=42.0 ms
+64 bytes from 192.168.43.177: icmp_seq=6 ttl=128 time=66.0 ms
+64 bytes from 192.168.43.177: icmp_seq=7 ttl=128 time=13.1 ms
+64 bytes from 192.168.43.177: icmp_seq=8 ttl=128 time=13.6 ms
+64 bytes from 192.168.43.177: icmp_seq=9 ttl=128 time=9.65 ms
+64 bytes from 192.168.43.177: icmp_seq=10 ttl=128 time=9.88 ms
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+64 bytes from 192.168.43.177: icmp_seq=13 ttl=128 time=91.9 ms
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+64 bytes from 192.168.43.177: icmp_seq=16 ttl=128 time=323 ms
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+64 bytes from 192.168.43.177: icmp_seq=20 ttl=128 time=53.3 ms
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+64 bytes from 192.168.43.177: icmp_seq=24 ttl=128 time=83.4 ms
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+64 bytes from 192.168.43.177: icmp_seq=27 ttl=128 time=215 ms
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+64 bytes from 192.168.43.177: icmp_seq=31 ttl=128 time=13.7 ms
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+64 bytes from 192.168.43.177: icmp_seq=35 ttl=128 time=10.1 ms
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+64 bytes from 192.168.43.177: icmp_seq=39 ttl=128 time=309 ms
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+64 bytes from 192.168.43.177: icmp_seq=42 ttl=128 time=40.4 ms
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+64 bytes from 192.168.43.177: icmp_seq=46 ttl=128 time=74.6 ms
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+64 bytes from 192.168.43.177: icmp_seq=50 ttl=128 time=102 ms
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+64 bytes from 192.168.43.177: icmp_seq=53 ttl=128 time=13.3 ms
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+64 bytes from 192.168.43.177: icmp_seq=57 ttl=128 time=79.6 ms
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+ping: sendmsg: Operation not permitted
+
+--- 192.168.43.177 ping statistics ---
+60 packets transmitted, 23 received, 61% packet loss, time 59757ms
+rtt min/avg/max/mdev = 9.650/72.786/323.104/88.220 ms
+]0;kitty@kitty-Lenovo-YOGA-520-14IKB: ~[01;32mkitty@kitty-Lenovo-YOGA-520-14IKB[00m:[01;34m~[00m$ exit
+
+Script done on 2019-12-02 14:56:16+0530
