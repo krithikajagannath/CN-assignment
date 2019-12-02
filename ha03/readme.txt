@@ -13,6 +13,7 @@ RULE 2: sudo iptables -A OUTPUT -d 192.168.43.177 -p icmp --icmp-type 8 -j DROP
 ping -c 60 192.168.43.177
 
 HOW IT WORKS:
+We will be working on two different operating systems in our case we have ubuntu and windows. We have to enter the IP address of the windows system if incase we work on ubuntu.Now we use ping and send packets from one OS to another with the abpve rules.  
 As we have given the burst-limit to be 8 it will send packets upto 10 the extra 2 are because of the average value and another start value.
 As we have given the limit to be 16, 16packets will be sent per minute.
 We have used --icmp-type 8 as 8 indicates request (icmp:Internet Control Message Protocol).
@@ -24,3 +25,7 @@ CHALLENGES FACED:
 The main cahllenges faced was with the syntax errors 
 As we did not have virtual box it was difficult to do the assignment
 We were not clear with getting the wireshark capture as we did not know to use wireshark properly
+
+LEARNING FROM THIS ASSIGNMENT:
+We have learnt to send packets from one system to another and capture the same in wireshark given the burst value and other necessary parameters.
+We have learnt to execute few new commands as we worked on this assignment.
